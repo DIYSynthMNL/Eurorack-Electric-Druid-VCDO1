@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid fd9ff409-90ec-4d74-a997-55d5d55afe9d)
+
+  (paper "A4")
+
+  (title_block
+    (title "Eurorack Electric Druid VCDO1 - Control Board")
+    (date "2023-12-30")
+    (rev "0.1")
+    (company "DIYSynthMNL")
+  )
+
+  (lib_symbols
+  )
+
+)

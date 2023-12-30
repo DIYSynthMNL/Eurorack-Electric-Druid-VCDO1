@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b416c6a3-3522-474a-854b-6cc9edfdb7ad)
+
+  (paper "A4")
+
+  (title_block
+    (title "Eurorack Electric Druid VCDO1 - Front Panel")
+    (date "2023-12-30")
+    (rev "0.1")
+    (company "DIYSynthMNL")
+  )
+
+  (lib_symbols
+  )
+
+)
