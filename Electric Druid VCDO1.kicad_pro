@@ -278,6 +278,74 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "+12V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "+5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(204, 102, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "-12V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 255, 255)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "-5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 132, 132)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Analog Input",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -346,6 +414,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(194, 194, 0)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -362,23 +447,23 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "PWR",
-        "pattern": "/+12V*"
+        "netclass": "+12V",
+        "pattern": "+12V"
       },
       {
-        "netclass": "PWR",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
-        "netclass": "PWR",
-        "pattern": "/-12V*"
+        "netclass": "-12V",
+        "pattern": "-12V"
       },
       {
-        "netclass": "PWR",
+        "netclass": "+5V",
         "pattern": "+5V"
       },
       {
-        "netclass": "PWR",
+        "netclass": "-5V",
         "pattern": "-5V"
       },
       {
@@ -388,6 +473,26 @@
       {
         "netclass": "PWR",
         "pattern": "-12V"
+      },
+      {
+        "netclass": "+5V",
+        "pattern": "/Eurorack_Electric_Druid_VCDO1_Control_Board/CB_+5V*"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/Eurorack_Electric_Druid_VCDO1_Control_Board/CB_GND"
+      },
+      {
+        "netclass": "-5V",
+        "pattern": "/Eurorack_Electric_Druid_VCDO1_Control_Board/CB_-5V"
+      },
+      {
+        "netclass": "+12V",
+        "pattern": "/Eurorack_Electric_Druid_VCDO1_Main_Board/+12V_IN"
+      },
+      {
+        "netclass": "-12V",
+        "pattern": "/Eurorack_Electric_Druid_VCDO1_Main_Board/-12V_IN"
       }
     ]
   },
