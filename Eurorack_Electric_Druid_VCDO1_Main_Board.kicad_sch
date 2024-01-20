@@ -7,7 +7,7 @@
   (title_block
     (title "Eurorack Electric Druid VCDO1 - Main Board")
     (date "2023-12-30")
-    (rev "0.1.1")
+    (rev "0.1.2")
     (company "DIYSynthMNL")
     (comment 1 "Shared under a CC BY-NC-SA 4.0 license. Some rights reserved.")
   )
@@ -3945,7 +3945,7 @@
           (reference "R50") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R38") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -3974,7 +3974,7 @@
           (reference "R25") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R13") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
     )
@@ -4031,7 +4031,7 @@
           (reference "#PWR076") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4060,7 +4060,7 @@
           (reference "R53") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R45") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -4088,7 +4088,7 @@
           (reference "#PWR065") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -4144,7 +4144,7 @@
           (reference "#PWR039") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -4153,7 +4153,7 @@
   (symbol (lib_id "power:GND") (at 22.86 266.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0d7330db-86c8-40c0-82e0-4db6fa527158)
-    (property "Reference" "#PWR042" (at 22.86 272.415 0)
+    (property "Reference" "#PWR041" (at 22.86 272.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 22.86 270.51 0)
@@ -4169,7 +4169,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "#PWR04") (unit 1)
@@ -4201,7 +4201,7 @@
           (reference "R30") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R28") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -4230,7 +4230,7 @@
           (reference "R31") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R27") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -4258,7 +4258,7 @@
           (reference "#PWR067") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -4286,7 +4286,7 @@
           (reference "#PWR033") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -4342,7 +4342,7 @@
           (reference "#PWR010") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -4371,7 +4371,7 @@
           (reference "D15") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D11") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -4380,10 +4380,10 @@
   (symbol (lib_id "Device:D") (at 59.055 260.985 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17f4cde1-bcf3-4dcb-8047-ea8da886cc9d)
-    (property "Reference" "D13" (at 59.055 254.635 0)
+    (property "Reference" "D15" (at 59.055 257.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "4001" (at 59.055 257.175 0)
+    (property "Value" "~" (at 59.055 257.175 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "DIYSynthMNL:D_DO-41_SOD81_P7.62mm_Horizontal_BigPads" (at 59.055 260.985 0)
@@ -4403,7 +4403,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D13") (unit 1)
+          (reference "D15") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "D1") (unit 1)
@@ -4464,7 +4464,7 @@
           (reference "R4") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R1") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -4492,7 +4492,7 @@
           (reference "#PWR023") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR01") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4501,7 +4501,7 @@
   (symbol (lib_id "power:GND") (at 54.61 266.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e963e5a-ab4d-4861-bbe8-981c0953069e)
-    (property "Reference" "#PWR043" (at 54.61 272.415 0)
+    (property "Reference" "#PWR042" (at 54.61 272.415 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 270.51 0)
@@ -4517,7 +4517,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "#PWR05") (unit 1)
@@ -4549,7 +4549,7 @@
           (reference "R15") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R17") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -4616,10 +4616,10 @@
   (symbol (lib_id "Device:D") (at 59.055 274.32 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f923946-da32-4194-8e3a-893604b3cdf7)
-    (property "Reference" "D14" (at 59.055 280.67 0)
+    (property "Reference" "D16" (at 59.055 280.67 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "4001" (at 59.055 278.13 0)
+    (property "Value" "" (at 59.055 278.13 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "DIYSynthMNL:D_DO-41_SOD81_P7.62mm_Horizontal_BigPads" (at 59.055 274.32 0)
@@ -4639,7 +4639,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D14") (unit 1)
+          (reference "D16") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "D2") (unit 1)
@@ -4670,7 +4670,7 @@
           (reference "#PWR046") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4698,7 +4698,7 @@
           (reference "#PWR024") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4727,7 +4727,7 @@
           (reference "R19") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R24") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -4755,7 +4755,7 @@
           (reference "#PWR017") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR02") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -4764,7 +4764,7 @@
   (symbol (lib_id "power:+12V") (at 103.505 234.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2844d20c-aee6-441e-9d17-787d53a7fcf0)
-    (property "Reference" "#PWR038" (at 103.505 238.76 0)
+    (property "Reference" "#PWR037" (at 103.505 238.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 103.505 229.87 0)
@@ -4780,7 +4780,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "#PWR08") (unit 1)
@@ -4841,7 +4841,7 @@
           (reference "R33") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R30") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -4882,7 +4882,7 @@
           (reference "U4") (unit 4)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U2") (unit 4)
+          (reference "U4") (unit 4)
         )
       )
     )
@@ -4923,7 +4923,7 @@
           (reference "U6") (unit 5)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U3") (unit 5)
+          (reference "U1") (unit 5)
         )
       )
     )
@@ -4952,7 +4952,7 @@
           (reference "R10") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R4") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4981,7 +4981,7 @@
           (reference "D6") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D4") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -5010,7 +5010,7 @@
           (reference "D14") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D16") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -5038,7 +5038,7 @@
           (reference "#PWR040") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -5073,7 +5073,7 @@
           (reference "U7") (unit 2)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U5") (unit 2)
+          (reference "U2") (unit 2)
         )
       )
     )
@@ -5131,7 +5131,7 @@
           (reference "R34") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R31") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -5159,7 +5159,7 @@
           (reference "#PWR022") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -5188,7 +5188,7 @@
           (reference "R5") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R6") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5247,7 +5247,7 @@
           (reference "R9") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R8") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -5277,7 +5277,7 @@
           (reference "RV4") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "RV4") (unit 1)
+          (reference "RV3") (unit 1)
         )
       )
     )
@@ -5305,7 +5305,7 @@
           (reference "#PWR014") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -5334,7 +5334,7 @@
           (reference "R17") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R20") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -5363,7 +5363,7 @@
           (reference "R8") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R3") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -5392,7 +5392,7 @@
           (reference "R27") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R18") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -5421,7 +5421,7 @@
           (reference "R24") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R12") (unit 1)
+          (reference "R1") (unit 1)
         )
       )
     )
@@ -5478,7 +5478,7 @@
           (reference "D9") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D7") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -5507,7 +5507,7 @@
           (reference "R12") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R14") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -5542,7 +5542,7 @@
           (reference "U5") (unit 2)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U1") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
     )
@@ -5570,7 +5570,7 @@
           (reference "#PWR044") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5598,7 +5598,7 @@
           (reference "#PWR013") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -5627,7 +5627,7 @@
           (reference "R38") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R36") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -5655,7 +5655,7 @@
           (reference "#PWR038") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -5684,7 +5684,7 @@
           (reference "D11") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D9") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -5713,7 +5713,7 @@
           (reference "R22") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R5") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -5741,7 +5741,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -5770,7 +5770,7 @@
           (reference "D12") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D10") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -5798,7 +5798,7 @@
           (reference "#PWR079") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -5843,7 +5843,7 @@
           (reference "U3") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U4") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -5852,7 +5852,7 @@
   (symbol (lib_id "DIYSynthMNL:EURO_PWR_16_PIN") (at 38.735 266.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ba3f113-fded-4613-afae-9f0ba1e74a4f)
-    (property "Reference" "J2" (at 38.735 248.92 0)
+    (property "Reference" "J4" (at 38.735 248.92 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "EURO_PWR_16P" (at 38.735 245.11 0)
@@ -5883,7 +5883,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "J2") (unit 1)
@@ -5914,7 +5914,7 @@
           (reference "#PWR016") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -5943,7 +5943,7 @@
           (reference "R32") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R29") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -5972,7 +5972,7 @@
           (reference "R18") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R22") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -6000,7 +6000,7 @@
           (reference "#PWR09") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -6029,7 +6029,7 @@
           (reference "R39") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R37") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -6114,7 +6114,7 @@
           (reference "#PWR011") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -6199,7 +6199,7 @@
           (reference "#PWR045") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -6298,7 +6298,7 @@
           (reference "U4") (unit 5)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U2") (unit 5)
+          (reference "U4") (unit 5)
         )
       )
     )
@@ -6326,7 +6326,7 @@
           (reference "#PWR018") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -6383,7 +6383,7 @@
           (reference "#PWR048") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -6412,7 +6412,7 @@
           (reference "R13") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R15") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -6470,7 +6470,7 @@
           (reference "#PWR068") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -6498,7 +6498,7 @@
           (reference "#PWR043") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -6562,7 +6562,7 @@
           (reference "U5") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U1") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -6600,7 +6600,7 @@
   (symbol (lib_id "DIYSynthMNL:JST_Eurorack_power_3P") (at 34.29 226.695 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 84dbe6a8-784e-442d-8e30-ff000cd570b4)
-    (property "Reference" "J1" (at 31.115 221.615 0)
+    (property "Reference" "J3" (at 31.115 221.615 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EuroPower_JST_3P" (at 31.115 224.155 0)
@@ -6618,7 +6618,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "J1") (unit 1)
+          (reference "J3") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "J1") (unit 1)
@@ -6650,7 +6650,7 @@
           (reference "D8") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D6") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -6679,7 +6679,7 @@
           (reference "R46") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R48") (unit 1)
+          (reference "R19") (unit 1)
         )
       )
     )
@@ -6707,7 +6707,7 @@
           (reference "#PWR019") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -6736,7 +6736,7 @@
           (reference "R37") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R35") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -6764,7 +6764,7 @@
           (reference "#PWR015") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -6792,7 +6792,7 @@
           (reference "#PWR012") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -6821,7 +6821,7 @@
           (reference "D5") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D3") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -6849,7 +6849,7 @@
           (reference "#PWR049") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -6884,7 +6884,7 @@
           (reference "U5") (unit 3)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U1") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
     )
@@ -6942,7 +6942,7 @@
           (reference "#PWR050") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -6999,7 +6999,7 @@
           (reference "#PWR051") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -7057,7 +7057,7 @@
           (reference "R1") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R46") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -7098,7 +7098,7 @@
           (reference "U4") (unit 3)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U2") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
     )
@@ -7156,7 +7156,7 @@
           (reference "R29") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R26") (unit 1)
+          (reference "R18") (unit 1)
         )
       )
     )
@@ -7242,7 +7242,7 @@
           (reference "R47") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R49") (unit 1)
+          (reference "R20") (unit 1)
         )
       )
     )
@@ -7300,7 +7300,7 @@
           (reference "R26") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R21") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -7341,7 +7341,7 @@
           (reference "U6") (unit 3)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U3") (unit 3)
+          (reference "U1") (unit 3)
         )
       )
     )
@@ -7369,7 +7369,7 @@
           (reference "#PWR036") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -7410,7 +7410,7 @@
           (reference "U6") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U3") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -7438,7 +7438,7 @@
           (reference "#PWR035") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -7467,7 +7467,7 @@
           (reference "D10") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D8") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -7476,7 +7476,7 @@
   (symbol (lib_id "power:GND") (at 66.04 267.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bd5772ff-b85d-4806-8e69-4c1b107d2c06)
-    (property "Reference" "#PWR044" (at 66.04 273.685 0)
+    (property "Reference" "#PWR043" (at 66.04 273.685 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 66.04 271.78 0)
@@ -7492,7 +7492,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "#PWR06") (unit 1)
@@ -7524,7 +7524,7 @@
           (reference "R16") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R19") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -7552,7 +7552,7 @@
           (reference "#PWR037") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -7581,7 +7581,7 @@
           (reference "R11") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R10") (unit 1)
+          (reference "R16") (unit 1)
         )
       )
     )
@@ -7622,7 +7622,7 @@
           (reference "U6") (unit 4)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U3") (unit 4)
+          (reference "U1") (unit 4)
         )
       )
     )
@@ -7651,7 +7651,7 @@
           (reference "R21") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R11") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -7692,7 +7692,7 @@
           (reference "U4") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U2") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -7721,7 +7721,7 @@
           (reference "R2") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R47") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -7759,7 +7759,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 183.515 266.065 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d1a356ff-4a36-407b-b2b2-56a5ed79771d)
-    (property "Reference" "H4" (at 186.69 263.525 0)
+    (property "Reference" "H2" (at 186.69 263.525 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 186.69 266.065 0)
@@ -7775,7 +7775,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "H4") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -7804,7 +7804,7 @@
           (reference "R14") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R16") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -7813,7 +7813,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 72.39 271.145 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2bda90d-e64b-4a3e-b4f2-4399a3b115e6)
-    (property "Reference" "C24" (at 76.2 268.986 0)
+    (property "Reference" "C20" (at 76.2 268.986 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22uF" (at 76.2 271.526 0)
@@ -7830,7 +7830,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "C24") (unit 1)
+          (reference "C20") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "C2") (unit 1)
@@ -7842,7 +7842,7 @@
   (symbol (lib_id "power:+12V") (at 125.095 199.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2e2ab08-1124-4857-a32f-76e88d2a9cbd)
-    (property "Reference" "#PWR030" (at 125.095 203.2 0)
+    (property "Reference" "#PWR033" (at 125.095 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 125.095 194.31 0)
@@ -7858,7 +7858,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "#PWR021") (unit 1)
@@ -7890,7 +7890,7 @@
           (reference "R49") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R51") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -7919,7 +7919,7 @@
           (reference "D13") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D15") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -7960,7 +7960,7 @@
           (reference "U6") (unit 2)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U3") (unit 2)
+          (reference "U1") (unit 2)
         )
       )
     )
@@ -7989,7 +7989,7 @@
           (reference "D4") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D2") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -8018,7 +8018,7 @@
           (reference "R3") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R33") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -8047,7 +8047,7 @@
           (reference "D16") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D12") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -8076,7 +8076,7 @@
           (reference "R52") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R44") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -8146,7 +8146,7 @@
           (reference "U4") (unit 2)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U2") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
     )
@@ -8175,7 +8175,7 @@
           (reference "R48") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R50") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -8204,7 +8204,7 @@
           (reference "R7") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R7") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -8232,7 +8232,7 @@
           (reference "#PWR020") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -8261,7 +8261,7 @@
           (reference "R20") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R9") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -8289,7 +8289,7 @@
           (reference "#PWR078") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -8298,7 +8298,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 183.515 257.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee020c6f-b112-4743-9ff7-252efc61a298)
-    (property "Reference" "H3" (at 186.69 255.27 0)
+    (property "Reference" "H1" (at 186.69 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 186.69 257.81 0)
@@ -8314,7 +8314,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "H3") (unit 1)
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -8370,7 +8370,7 @@
           (reference "#PWR034") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -8457,7 +8457,7 @@
           (reference "R51") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R39") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )
@@ -8486,7 +8486,7 @@
           (reference "R28") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R25") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -8515,7 +8515,7 @@
           (reference "D3") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "D1") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -8524,7 +8524,7 @@
   (symbol (lib_id "power:+12V") (at 79.375 257.175 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f952dbee-ab8b-4f00-96e8-0d6aa86d69b7)
-    (property "Reference" "#PWR041" (at 79.375 260.985 0)
+    (property "Reference" "#PWR040" (at 79.375 260.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 79.375 252.095 0)
@@ -8540,7 +8540,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
           (reference "#PWR03") (unit 1)
@@ -8572,7 +8572,7 @@
           (reference "R36") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R34") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -8601,7 +8601,7 @@
           (reference "R35") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R32") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -8630,7 +8630,7 @@
           (reference "R6") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "R2") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -8665,7 +8665,7 @@
           (reference "U7") (unit 3)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U5") (unit 3)
+          (reference "U2") (unit 3)
         )
       )
     )
@@ -8700,7 +8700,7 @@
           (reference "U7") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/940513db-8445-4e70-8397-130f22045b59"
-          (reference "U5") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )

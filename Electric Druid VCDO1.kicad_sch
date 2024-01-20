@@ -7,7 +7,7 @@
   (title_block
     (title "Eurorack Electric Druid VCDO1 - Root Sheet")
     (date "2023-12-30")
-    (rev "0.1.1")
+    (rev "0.1.2")
     (company "DIYSynthMNL")
     (comment 1 "Shared under a CC BY-NC-SA 4.0 license. Some rights reserved.")
   )
@@ -1688,7 +1688,7 @@
   (symbol (lib_id "Connector:Conn_01x20_Pin") (at 140.335 88.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 19f0e205-13c1-4e3b-b606-baf66016be3d)
-    (property "Reference" "J12" (at 135.255 59.055 0)
+    (property "Reference" "J1" (at 135.255 59.055 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x20_Pin" (at 124.46 61.595 0)
@@ -1723,7 +1723,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
-          (reference "J12") (unit 1)
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -1732,7 +1732,7 @@
   (symbol (lib_id "Connector:Conn_01x20_Socket") (at 141.605 88.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 34230b07-ffe4-45d5-b7f2-fe578681be9b)
-    (property "Reference" "J13" (at 144.78 59.055 0)
+    (property "Reference" "J2" (at 144.78 59.055 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x20_Socket" (at 152.4 61.595 0)
@@ -1767,7 +1767,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d"
-          (reference "J13") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )

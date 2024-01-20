@@ -7,7 +7,7 @@
   (title_block
     (title "Eurorack Electric Druid VCDO1 - Front Panel")
     (date "2023-12-30")
-    (rev "0.1.1")
+    (rev "0.1.2")
     (company "DIYSynthMNL")
     (comment 1 "Shared under a CC BY-NC-SA 4.0 license. Some rights reserved.")
   )

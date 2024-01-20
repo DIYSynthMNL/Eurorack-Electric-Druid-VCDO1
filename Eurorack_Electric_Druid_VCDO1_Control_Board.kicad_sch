@@ -7,7 +7,7 @@
   (title_block
     (title "Eurorack Electric Druid VCDO1 - Control Board")
     (date "2023-12-30")
-    (rev "0.1.1")
+    (rev "0.1.2")
     (company "DIYSynthMNL")
     (comment 1 "Shared under a CC BY-NC-SA 4.0 license. Some rights reserved.")
   )
@@ -1735,7 +1735,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 227.33 74.295 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18bf65df-8687-46cd-82aa-dd0e4c922a4e)
-    (property "Reference" "H2" (at 229.87 71.755 0)
+    (property "Reference" "H4" (at 229.87 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 229.87 74.295 0)
@@ -1751,7 +1751,7 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "H2") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -1780,7 +1780,7 @@
           (reference "R42") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "R42") (unit 1)
+          (reference "R50") (unit 1)
         )
       )
     )
@@ -1869,7 +1869,7 @@
           (reference "J7") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "J7") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -1935,13 +1935,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Potentiometer") (at 167.64 98.425 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:R_Potentiometer") (at 167.64 98.425 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a149418-84c4-4bfe-82c1-490e7df0aa4e)
-    (property "Reference" "RV10" (at 165.1 97.155 0)
+    (property "Reference" "RV10" (at 165.1 99.695 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10K_SubWaveSel" (at 165.1 99.695 0)
+    (property "Value" "10K_SubWaveSel" (at 165.1 97.155 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "DIYSynthMNL:Potentiometer_RV09_BigPads" (at 167.64 98.425 0)
@@ -1959,7 +1959,7 @@
           (reference "RV10") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "RV10") (unit 1)
+          (reference "RV9") (unit 1)
         )
       )
     )
@@ -2018,7 +2018,7 @@
           (reference "C22") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "C22") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -2048,7 +2048,7 @@
           (reference "J11") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "J10") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -2077,7 +2077,7 @@
           (reference "R23") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "R23") (unit 1)
+          (reference "R51") (unit 1)
         )
       )
     )
@@ -2107,7 +2107,7 @@
           (reference "J9") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "J9") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -2137,7 +2137,7 @@
           (reference "J3") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "J3") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -2167,7 +2167,7 @@
           (reference "RV6") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "RV6") (unit 1)
+          (reference "RV8") (unit 1)
         )
       )
     )
@@ -2197,7 +2197,7 @@
           (reference "J4") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "J4") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -2227,7 +2227,7 @@
           (reference "J8") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "J8") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -2256,7 +2256,7 @@
           (reference "C20") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "C20") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -2286,19 +2286,19 @@
           (reference "J10") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "J11") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Potentiometer") (at 167.64 67.31 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:R_Potentiometer") (at 167.64 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ce6de88a-2346-4777-90b8-cf144419d9a5)
-    (property "Reference" "RV8" (at 165.1 66.04 0)
+    (property "Reference" "RV8" (at 165.1 68.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10K_Freq_Fine" (at 165.1 68.58 0)
+    (property "Value" "10K_Freq_Fine" (at 165.1 66.04 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "DIYSynthMNL:Potentiometer_RV09_BigPads" (at 167.64 67.31 0)
@@ -2316,7 +2316,7 @@
           (reference "RV8") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "RV8") (unit 1)
+          (reference "RV6") (unit 1)
         )
       )
     )
@@ -2325,7 +2325,7 @@
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 227.33 65.405 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d14c1340-f241-4ca9-85de-2d9ceb59b8c3)
-    (property "Reference" "H1" (at 229.87 62.865 0)
+    (property "Reference" "H3" (at 229.87 62.865 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole_Pad" (at 229.87 65.405 0)
@@ -2341,19 +2341,19 @@
     (instances
       (project "Electric Druid VCDO1"
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "H1") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R_Potentiometer") (at 120.65 67.945 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:R_Potentiometer") (at 120.65 67.945 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d5aa6126-51c2-4de4-a679-4c8fdcc9212c)
-    (property "Reference" "RV7" (at 118.11 66.675 0)
+    (property "Reference" "RV7" (at 118.11 69.215 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10K_Freq_Course" (at 118.11 69.215 0)
+    (property "Value" "10K_Freq_Course" (at 118.11 66.675 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "DIYSynthMNL:Potentiometer_RV09_BigPads" (at 120.65 67.945 0)
@@ -2377,13 +2377,13 @@
     )
   )
 
-  (symbol (lib_id "Device:R_Potentiometer") (at 120.65 99.06 0) (mirror x) (unit 1)
+  (symbol (lib_id "Device:R_Potentiometer") (at 120.65 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7a6ef12-0644-4ebe-b71a-351075edb204)
-    (property "Reference" "RV9" (at 118.11 97.79 0)
+    (property "Reference" "RV9" (at 118.11 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10K_MainWaveSel" (at 118.11 100.33 0)
+    (property "Value" "10K_MainWaveSel" (at 118.11 97.79 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "DIYSynthMNL:Potentiometer_RV09_BigPads" (at 120.65 99.06 0)
@@ -2401,7 +2401,7 @@
           (reference "RV9") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "RV9") (unit 1)
+          (reference "RV10") (unit 1)
         )
       )
     )
@@ -2430,7 +2430,7 @@
           (reference "R41") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "R41") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -2460,7 +2460,7 @@
           (reference "RV3") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "RV3") (unit 1)
+          (reference "RV4") (unit 1)
         )
       )
     )
@@ -2518,7 +2518,7 @@
           (reference "R40") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "R40") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -2548,7 +2548,7 @@
           (reference "J5") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "J5") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -2577,7 +2577,7 @@
           (reference "R43") (unit 1)
         )
         (path "/1a79e409-2950-446e-9b6e-16f6bf0a888d/c68a14c9-390d-4940-8b6e-7a8e2ca87292"
-          (reference "R43") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )
