@@ -1,0 +1,2570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Acer\Desktop\Synth DIY\KiCad Designs\VCOs\Electric Druid VCDO1\Eurorack-Electric-Druid-VCDO1\Electric Druid VCDO1.kicad_sch</source>
+    <date>20/01/2024 2:25:17 pm</date>
+    <tool>Eeschema 7.0.9</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Eurorack Electric Druid VCDO1 - Root Sheet</title>
+        <company>DIYSynthMNL</company>
+        <rev>0.1.2</rev>
+        <date>2023-12-30</date>
+        <source>Electric Druid VCDO1.kicad_sch</source>
+        <comment number="1" value="Shared under a CC BY-NC-SA 4.0 license. Some rights reserved."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/">
+      <title_block>
+        <title>Eurorack Electric Druid VCDO1 - Main Board</title>
+        <company>DIYSynthMNL</company>
+        <rev>0.1.2</rev>
+        <date>2023-12-30</date>
+        <source>Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch</source>
+        <comment number="1" value="Shared under a CC BY-NC-SA 4.0 license. Some rights reserved."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/">
+      <title_block>
+        <title>Eurorack Electric Druid VCDO1 - Control Board</title>
+        <company>DIYSynthMNL</company>
+        <rev>0.1.2</rev>
+        <date>2023-12-30</date>
+        <source>Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch</source>
+        <comment number="1" value="Shared under a CC BY-NC-SA 4.0 license. Some rights reserved."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Eurorack_Electric_Druid_VCDO1_Front_Panel/" tstamps="/e22260fa-cb13-43b6-bf19-10e34a9c2616/">
+      <title_block>
+        <title>Eurorack Electric Druid VCDO1 - Front Panel</title>
+        <company>DIYSynthMNL</company>
+        <rev>0.1.2</rev>
+        <date>2023-12-30</date>
+        <source>Eurorack_Electric_Druid_VCDO1_Front_Panel.kicad_sch</source>
+        <comment number="1" value="Shared under a CC BY-NC-SA 4.0 license. Some rights reserved."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Conn_01x20_Pin</value>
+      <libsource lib="Connector" part="Conn_01x20_Pin" description="Generic connector, single row, 01x20, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Electric Druid VCDO1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x20, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19f0e205-13c1-4e3b-b606-baf66016be3d</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x20_Socket</value>
+      <libsource lib="Connector" part="Conn_01x20_Socket" description="Generic connector, single row, 01x20, script generated"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Electric Druid VCDO1.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x20, script generated"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34230b07-ffe4-45d5-b7f2-fe578681be9b</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>330pF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>61f4ea0c-41c8-438a-82e5-298ef04fb55c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>330pF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>d193da10-3812-4dac-9e7b-a8bbf1192461</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>330pF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>f2a018e0-6886-416e-b8ba-2735543ddb6d</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>150pF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>aa76e4c5-8e2a-473d-a738-59d4fc7bcc54</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>330pF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>6c5f0830-69f9-4fb6-9477-67dfb276ff25</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>330pF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>833b1616-339d-446e-82ef-aa3bed7d4e9c</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>330pF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>a30021f0-cad7-4ed8-8f0c-12788e0479b1</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>150pF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>2c2e9744-8c18-4c8a-b78f-ef425f763568</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>644ed8ef-ace6-4236-af52-3b467aba1fad</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1uF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>66b383ca-e0ec-4fcd-a631-87fe81a14d77</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>a24892c7-433a-480c-bb54-f2c78d0e1383</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>18112651-1214-4269-b761-dc702d30c6a3</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>2.2uF</value>
+      <footprint>DIYSynthMNL:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>84a57835-e331-4008-b619-cb58a117325b</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>2.2uF</value>
+      <footprint>DIYSynthMNL:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>042929f4-6155-4818-a490-d15d20c1ae9a</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>100nF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>f28e774d-8bee-48dd-9b30-50cbd9ed6648</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>2.2uF</value>
+      <footprint>DIYSynthMNL:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>dfde9ae3-fbf7-487f-a835-f61d8281c2f6</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>38a5eeaf-12d1-4639-bbfc-a52bfe05f118</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>2.2uF</value>
+      <footprint>DIYSynthMNL:CP_Radial_D5.0mm_P2.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>a854ef0a-acd4-49e7-9898-db28e6f8f284</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>22uF</value>
+      <footprint>DIYSynthMNL:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>af9913b2-b736-49bd-870a-87a7f879ff5f</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>22uF</value>
+      <footprint>DIYSynthMNL:CP_Radial_D4.0mm_P1.50mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>d2bda90d-e64b-4a3e-b4f2-4399a3b115e6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>90235bff-692a-474d-83ad-c751003ff28f</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>17af7c9e-c57f-4a41-8852-17da98da0bbb</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>33857a38-32d7-456c-a6e2-bfc278839adf</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>dc31946d-f125-4adc-ba33-6e6e3d36572b</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>6614135e-9933-48b6-868f-1d0fcd560a37</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>d3a47222-9655-4e32-ad23-96889fbfd969</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>86d8522d-503c-427b-b839-54437bde26b1</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>37bce6cc-9a12-4621-afae-f6842673a7d5</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>4d2dad70-9f7d-4773-a7d9-50d2a55ee501</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>f924ac55-7766-43e5-b12a-fa5d3f5bd033</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>bc1006c3-c81d-408f-9e8c-27b4c9101657</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>d884f4d1-ea8c-486c-9187-b4e571e63bca</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>55c08287-9652-466b-a02d-8d87caa76243</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>BAT42</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>http://www.vishay.com/docs/85660/bat42.pdf</datasheet>
+      <libsource lib="Diode" part="BAT42" description="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="30V 0.2A Small Signal Schottky Diode, DO-35"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>59b0515f-ec21-4005-8bd9-aba1067bc9d0</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>~</value>
+      <footprint>DIYSynthMNL:D_DO-41_SOD81_P7.62mm_Horizontal_BigPads</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>17f4cde1-bcf3-4dcb-8047-ea8da886cc9d</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>~</value>
+      <footprint>DIYSynthMNL:D_DO-41_SOD81_P7.62mm_Horizontal_BigPads</footprint>
+      <fields>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>1f923946-da32-4194-8e3a-893604b3cdf7</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>DIYSynthMNL:MountingHole_M3_Standoff_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>ee020c6f-b112-4743-9ff7-252efc61a298</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>DIYSynthMNL:MountingHole_M3_Standoff_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>d1a356ff-4a36-407b-b2b2-56a5ed79771d</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>EuroPower_JST_3P</value>
+      <footprint>DIYSynthMNL:Eurorack_power_jst_3P</footprint>
+      <libsource lib="DIYSynthMNL" part="JST_Eurorack_power_3P" description=""/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>84dbe6a8-784e-442d-8e30-ff000cd570b4</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>EURO_PWR_16P</value>
+      <footprint>DIYSynthMNL:IDC-Header_2x08_P2.54mm_Vertical</footprint>
+      <libsource lib="DIYSynthMNL" part="EURO_PWR_16_PIN" description=""/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>5ba3f113-fded-4613-afae-9f0ba1e74a4f</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N3904</value>
+      <footprint>Package_TO_SOT_THT:TO-92_Inline</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="2N3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"/>
+      <property name="ki_keywords" value="NPN Transistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>42e6ed88-5255-48e0-91dc-6434b0fc1775</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>91K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>4a6563b0-80a2-49a9-82c2-50ba08bfcf8e</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>0401108a-fd69-435d-bbd8-83c0f4d839a4</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>200K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>03a021fa-5010-41c6-a315-8bebfeacab19</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>f40c44d5-3be8-4740-9612-cc80df28420d</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>20K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>1c824f42-5bb4-4625-bc98-e270e83d66ff</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>27K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>fc41da85-711d-4d04-a1d8-693a3b5ab5a2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>51K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>49221058-e919-4f1d-be96-da0af5de47ba</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>3359e3b2-e12e-4fd3-8788-51227cc39970</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>91K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>49f8c0f9-2984-4e34-a06f-63909da1db90</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>4K7</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>b244968e-ba58-4487-b497-1cb3c4dce802</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>20K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>40d4bebf-fae5-45c0-8995-0fd9bd38dd33</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>27K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>e616d5cb-d96a-478e-8ec2-750aa870746a</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>4K7</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>dcf0f819-7d5f-4b4b-a0ca-dfe80faf7de5</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>443578c7-207a-4c69-892b-30edaaa7e331</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>055a32fd-6303-4b5b-a2ce-3fe3915f1fee</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>c32dc612-68fe-422f-9eae-d80364443f77</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>200K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>f89fb3c7-562b-4a20-93b3-de970a5caf4d</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>a973818d-7943-405c-9b0b-6330d348797e</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>200K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>88a952a5-5d93-417a-b6b1-0de6a3653b32</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>adbbb1ef-f123-4ce5-827b-a5473c743d24</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>4K7</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>0f4186ce-4705-4b0a-bae1-d62966d15bad</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>180K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>0ee50d33-75dd-48a7-915a-881b03d5f11e</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>4K7</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>e20317ab-ed85-4224-a430-e54d51eb7785</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>d319f066-e3c9-4a2e-8fa3-32556a30f37a</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>20K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>4ddf1354-bef5-4ff0-b649-43b3c78158aa</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>27K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>74134d37-125c-4cde-8a6d-faff7a79a5fd</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>51K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>d1fd1bc4-e2d7-4732-90b5-c9a0ccf4b90c</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>1ed035cb-2408-4ebc-906d-be0bf3ac3a2b</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>20K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>c07df152-e5dc-4830-925f-da90af67f177</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>27K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>4901d100-8be1-402a-a2ae-7ca272fc663c</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>5f5615ec-a8ca-4d2d-b93e-3ee1ac7c479e</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>1K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>24e6b2be-4b58-4ea1-a376-46b6e6e275c2</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>200K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>5eb6ede9-9931-4622-b234-8f75a3c078e8</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>2dcc8c5d-8efa-4c04-a93b-ef228cfeb46d</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>10K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>56022bf1-3260-41cb-8bb0-e29e4e5759d5</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>4K7</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>3f729b11-e8a8-499a-ad3e-a41dc6fec493</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>200K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>fbdf0240-32b5-4557-9738-0a796f8ca586</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>eb82bea3-b626-45ad-98bc-cac096618362</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>1M</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>c98d0492-d296-4cce-8f21-58f6860e061e</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>200K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>fb559bce-4c2a-45ef-a665-814018393a71</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>100K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>8ce61dc6-66d4-4e53-8b50-349741607907</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>4K7</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>55133b84-2322-4162-9378-e3283a61a5bf</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>200K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>6184ba88-06d3-497e-82ba-6bc977db263f</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>10k</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>da796bae-2643-4c2c-87ae-40ed244f05fa</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>*10k</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>a3c6934b-4c56-42c4-9af5-fcbd3c60b478</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>*10k</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>d016d921-8a7f-4615-9f57-03af14711fd8</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>20K_V/Oct_Adjust</value>
+      <footprint>DIYSynthMNL:Potentiometer_Bourns_3296W_Vertical_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>9a88c062-780c-4795-b7e4-f17f3b034cae</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>20K_Offset_trim</value>
+      <footprint>DIYSynthMNL:Potentiometer_Bourns_3296W_Vertical_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>1ee37eed-5864-4a5f-956a-dfa2198b610d</tstamps>
+    </comp>
+    <comp ref="RV3">
+      <value>47K_Zero_Trim</value>
+      <footprint>DIYSynthMNL:Potentiometer_Bourns_3296W_Vertical_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer_Trim" description="Trim-potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Trim-potentiometer"/>
+      <property name="ki_keywords" value="resistor variable trimpot trimmer"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>4495e9db-bae4-4de1-bfc9-cf9de891331d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL074</value>
+      <footprint>DIYSynthMNL:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>bae371e9-2e30-4d78-9b9b-b770c2da6be9 d56f541f-154a-4341-8cc2-cdb2b143a82d c620bc8c-8ee1-4d65-8118-c8bc9d2d3f9e b3655b39-1574-40e3-a7ec-6904b612f6bb 2fb12c4c-8465-4b18-8bdc-defe4de7115d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TL072</value>
+      <footprint>DIYSynthMNL:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>fdee9071-6950-47a7-bc6c-66f2c5ef83a5 ff53645f-bb2f-4d30-9dd8-178929eb864a 37fa813e-236a-4594-be85-7689e351ab04</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TL072</value>
+      <footprint>DIYSynthMNL:DIP-8_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+      <property name="ki_keywords" value="dual opamp"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>9155eb51-26a9-4cb4-a9b9-29d80861738a 845b4592-a2c6-4690-b657-7ee1a2d1073b 5184d1fa-2494-49fe-a327-060c42c9a2b8</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>TL074</value>
+      <footprint>DIYSynthMNL:DIP-14_W7.62mm_LongPads</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="ki_keywords" value="quad opamp"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>a5d3968e-bd0a-4488-abec-a958fb0981b3 67c628d7-f311-44ef-9aa3-e7063afc4083 e17fcc86-626b-40ab-b8a6-e056d74bd8dd cf839335-121b-4053-ad14-40ae5080dde7 2ea29210-6a2b-48e5-b542-64d5c9907f79</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>VCDO1</value>
+      <footprint>DIYSynthMNL:DIP-18_W7.62mm_LongPads</footprint>
+      <libsource lib="DIYSynthMNL" part="Druid_VCDO1_PIC16F1847" description=""/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>5b580d6a-fcac-4d85-8e9c-38347ec73bc4</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>78M05</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="LM78M05_TO252" description="Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)"/>
+      <property name="ki_keywords" value="Voltage Regulator 500mA Positive"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>01bd887f-c606-44ff-acfa-7c76718d36fc</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>79M05</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.onsemi.com/pub/Collateral/MC79M00-D.PDF</datasheet>
+      <libsource lib="Regulator_Linear" part="MC79M05_TO252" description="Negative 500mA 35V Linear Regulator, Fixed Output -5V, TO-252"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Main_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Main_Board.kicad_sch"/>
+      <property name="ki_description" value="Negative 500mA 35V Linear Regulator, Fixed Output -5V, TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 500mA Negative"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Main_Board/" tstamps="/940513db-8445-4e70-8397-130f22045b59/"/>
+      <tstamps>7752d822-a35c-42c3-af8d-716c814bfcc6</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>439d5fd8-75ad-4db0-9e14-f4631a24a482</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>c47873fe-1558-41d9-abe1-2de245bf9c01</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>e1a3195e-b68d-4597-b87e-033e5870d339</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>DIYSynthMNL:C_Rect_L7.0mm_W2.0mm_P5.00mm_BigPads</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>75824a8c-33c8-42af-8a6c-f04441bfdbd3</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>DIYSynthMNL:MountingHole_M3_Standoff_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>d14c1340-f241-4ca9-85de-2d9ceb59b8c3</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>DIYSynthMNL:MountingHole_M3_Standoff_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>18bf65df-8687-46cd-82aa-dd0e4c922a4e</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>FM_CV_in</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>49b1c935-efb8-448f-9f1c-3b91e5c3ee20</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>Note_CV_in</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>71c05bfa-eac2-498d-8da6-ef096b2873d9</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>Main_osc_out</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>91cc9d01-f885-4ea8-b7c4-2cc6ee49431f</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>Sub_osc_out</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>b225a6ca-d527-427f-8565-b323b9885840</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>WaveSel_CV_in</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>c1f081a0-3612-462a-a423-f7c7c6238d4e</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>SubSel_CV_in</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>820c87a6-4254-4d6a-a4c6-eb1f6f629c34</tstamps>
+    </comp>
+    <comp ref="J11">
+      <value>Bitcrush_CV_in</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>76d29aba-ae4c-4b47-a3e0-b08742a66e49</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Glide_time_CV_in</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>c5614aaa-1b06-4a9b-bbdc-eb3cd7dc96f0</tstamps>
+    </comp>
+    <comp ref="J13">
+      <value>Glide_on_off_CV_in</value>
+      <footprint>DIYSynthMNL:AudioJack_3.5mm_long_pads</footprint>
+      <libsource lib="DIYSynthMNL" part="PJ3001F" description="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"/>
+      <property name="ki_keywords" value="audio jack receptacle mono headphones phone TS connector"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>e9da8a53-4ab4-4758-8ffa-fc4be2e1c11b</tstamps>
+    </comp>
+    <comp ref="R47">
+      <value>1K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>dbf7f7f7-66e4-4d90-9fb3-b5c6eca2397a</tstamps>
+    </comp>
+    <comp ref="R48">
+      <value>1K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>e1e9396e-bf9b-4898-ae04-bd1f2453136f</tstamps>
+    </comp>
+    <comp ref="R49">
+      <value>1K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>ed73681f-9b76-4409-9e5c-35b04646cc36</tstamps>
+    </comp>
+    <comp ref="R50">
+      <value>1K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>32cfa3c1-8378-42e5-9a73-789569591918</tstamps>
+    </comp>
+    <comp ref="R51">
+      <value>10K</value>
+      <footprint>DIYSynthMNL:R_quarter_watt_L6.3mm_D2.5mm_P7.62mm</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>78bcc0b5-9745-41f5-9d52-9ac517baed18</tstamps>
+    </comp>
+    <comp ref="RV4">
+      <value>100K_FM_CV_Amount</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>de867812-6a72-43fd-b5f0-9a6b72817a7c</tstamps>
+    </comp>
+    <comp ref="RV5">
+      <value>100K_WaveSel_CV_Amount</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>f777dee9-c2ed-40b4-850d-337ced6ac2ee</tstamps>
+    </comp>
+    <comp ref="RV6">
+      <value>10K_Freq_Fine</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>ce6de88a-2346-4777-90b8-cf144419d9a5</tstamps>
+    </comp>
+    <comp ref="RV7">
+      <value>10K_Freq_Course</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>d5aa6126-51c2-4de4-a679-4c8fdcc9212c</tstamps>
+    </comp>
+    <comp ref="RV8">
+      <value>100K_SubSel_CV_Amount</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>92706d94-9d1d-48b4-8899-2a8c5596b507</tstamps>
+    </comp>
+    <comp ref="RV9">
+      <value>10K_SubWaveSel</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>6a149418-84c4-4bfe-82c1-490e7df0aa4e</tstamps>
+    </comp>
+    <comp ref="RV10">
+      <value>10K_MainWaveSel</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>d7a6ef12-0644-4ebe-b71a-351075edb204</tstamps>
+    </comp>
+    <comp ref="RV11">
+      <value>10K_Bitcrush_Control</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>51613f4c-6b5b-4962-bcf8-943271db9f09</tstamps>
+    </comp>
+    <comp ref="RV12">
+      <value>100K_Bitcrush_CV_Amount</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>640f7a23-34a9-4d58-b46b-788285f01d34</tstamps>
+    </comp>
+    <comp ref="RV13">
+      <value>10K_GlideTime_Control</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>f8a644c4-8f3a-4dee-bbe4-e7ece27b26ce</tstamps>
+    </comp>
+    <comp ref="RV14">
+      <value>100K_GlideTime_CV_Amount</value>
+      <footprint>DIYSynthMNL:Potentiometer_RV09_BigPads</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value="Eurorack_Electric_Druid_VCDO1_Control_Board"/>
+      <property name="Sheetfile" value="Eurorack_Electric_Druid_VCDO1_Control_Board.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/Eurorack_Electric_Druid_VCDO1_Control_Board/" tstamps="/c68a14c9-390d-4940-8b6e-7a8e2ca87292/"/>
+      <tstamps>3e2a6dec-506b-44f0-bbe0-3c80f586a2fd</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Operational" part="TL072">
+      <description>Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl071.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL072</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl071.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Amplifier_Operational" part="TL074">
+      <description>Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/tl071.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TL074</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl071.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V+" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="" type="output"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x20_Pin">
+      <description>Generic connector, single row, 01x20, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x20_Pin</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x20_Socket">
+      <description>Generic connector, single row, 01x20, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x20_Socket</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="DIYSynthMNL" part="Druid_VCDO1_PIC16F1847">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">VCDO1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Freq_Control" type="input"/>
+        <pin num="2" name="Fine_Control" type="input"/>
+        <pin num="3" name="Waveform_Control" type="input"/>
+        <pin num="4" name="Unused" type="input"/>
+        <pin num="5" name="0v" type="power_in"/>
+        <pin num="6" name="Main_Osc_Out" type="output"/>
+        <pin num="7" name="Sub_Select_Control" type="input"/>
+        <pin num="8" name="Glide_Control" type="input"/>
+        <pin num="9" name="Bitcrush_Control" type="input"/>
+        <pin num="10" name="Note_CV" type="input"/>
+        <pin num="11" name="Freq_Mod_CV" type="input"/>
+        <pin num="12" name="Unused" type="input"/>
+        <pin num="13" name="Glide_Input" type="input"/>
+        <pin num="14" name="+5V" type="power_in"/>
+        <pin num="15" name="Unused" type="bidirectional"/>
+        <pin num="16" name="Sub_OSC_out" type="output"/>
+        <pin num="17" name="Waveform_CV" type="input"/>
+        <pin num="18" name="Sub_Select_CV" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="DIYSynthMNL" part="EURO_PWR_16_PIN">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EURO_PWR_16P</field>
+        <field name="Footprint">DIYSynthMNL:IDC-Header_2x08_P2.54mm_Vertical</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-12V" type="power_in"/>
+        <pin num="2" name="-12V" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="GND" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="+12V" type="power_in"/>
+        <pin num="10" name="+12V" type="power_in"/>
+        <pin num="11" name="+5V" type="power_in"/>
+        <pin num="12" name="+5V" type="power_in"/>
+        <pin num="13" name="CV" type="bidirectional"/>
+        <pin num="14" name="CV" type="bidirectional"/>
+        <pin num="15" name="GATE" type="bidirectional"/>
+        <pin num="16" name="GATE" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="DIYSynthMNL" part="JST_Eurorack_power_3P">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">EuroPower_JST_3P</field>
+        <field name="Footprint">DIYSynthMNL:Eurorack_power_jst_3P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+12v" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="-12v" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="DIYSynthMNL" part="PJ3001F">
+      <description>Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">PJ3001F</field>
+        <field name="Footprint">DIYSynthMNL:AudioJack_3.5mm_long_pads</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="S" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer_Trim">
+      <description>Trim-potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer_Trim</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="BAT42">
+      <description>30V 0.2A Small Signal Schottky Diode, DO-35</description>
+      <docs>http://www.vishay.com/docs/85660/bat42.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT42</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85660/bat42.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LM78M05_TO252">
+      <description>Positive 500mA 35V Linear Regulator, Fixed Output 5V, TO-252 (D-PAK)</description>
+      <docs>https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM78M05_TO252</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/MC78M00-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MC79M05_TO252">
+      <description>Negative 500mA 35V Linear Regulator, Fixed Output -5V, TO-252</description>
+      <docs>http://www.onsemi.com/pub/Collateral/MC79M00-D.PDF</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MC79M05_TO252</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">http://www.onsemi.com/pub/Collateral/MC79M00-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VI" type="power_in"/>
+        <pin num="3" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="2N3904">
+      <description>0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92</description>
+      <docs>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">2N3904</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-92_Inline</field>
+        <field name="Datasheet">https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Operational">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Amplifier_Operational.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="DIYSynthMNL">
+      <uri>C:/Users/Acer/Desktop/Synth DIY/KiCad Symbols/DIYSynthMNL.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_BJT.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="U5" pin="14" pinfunction="+5V" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U3" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="V+" pintype="power_in"/>
+      <node ref="U6" pin="1" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="3" name="-5V">
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="4" name="-12V">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="V-" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="5" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/Bitcrush_CV_Amount">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="RV12" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="6" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/Bitcrush_CV_Control">
+      <node ref="J2" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="RV11" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/CB_+5V">
+      <node ref="J2" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="R51" pin="1" pintype="passive"/>
+      <node ref="RV10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV6" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="8" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/CB_-5V">
+      <node ref="J2" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="RV11" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV13" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/CB_GND">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J10" pin="S" pintype="passive"/>
+      <node ref="J11" pin="S" pintype="passive"/>
+      <node ref="J12" pin="S" pintype="passive"/>
+      <node ref="J13" pin="S" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J5" pin="S" pintype="passive"/>
+      <node ref="J6" pin="S" pintype="passive"/>
+      <node ref="J7" pin="S" pintype="passive"/>
+      <node ref="J8" pin="S" pintype="passive"/>
+      <node ref="J9" pin="S" pintype="passive"/>
+      <node ref="RV10" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV11" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV12" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV13" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV14" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV5" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV6" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV7" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="RV8" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV9" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="10" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/FM_CV">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="RV4" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="11" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/Freq_Course_Ctrl">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R48" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/Freq_Fine_Ctrl">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R47" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/GlideTime_CV_Control">
+      <node ref="J2" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="RV13" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="14" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/Glide_OnOff_CV">
+      <node ref="J13" pin="T" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="15" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/Glide_Time_CV_Amount">
+      <node ref="J2" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="RV14" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="16" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/MainOsc_Out">
+      <node ref="J2" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="J7" pin="T" pintype="passive"/>
+    </net>
+    <net code="17" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/MainWaveSel_CV">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="RV5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/MainWaveSel_Ctrl">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R50" pin="1" pintype="passive"/>
+    </net>
+    <net code="19" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/Note_CV">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J6" pin="T" pintype="passive"/>
+    </net>
+    <net code="20" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/SubOsc_Out">
+      <node ref="J2" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J8" pin="T" pintype="passive"/>
+    </net>
+    <net code="21" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/SubWaveSel_CV">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="RV8" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/Eurorack_Electric_Druid_VCDO1_Control_Board/SubWaveSel_Ctrl">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R49" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/+12V_IN">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="+12v" pintype="power_in"/>
+      <node ref="J4" pin="10" pinfunction="+12V" pintype="power_in"/>
+      <node ref="J4" pin="9" pinfunction="+12V" pintype="power_in"/>
+    </net>
+    <net code="24" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/-12V_IN">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="-12v" pintype="power_in"/>
+      <node ref="J4" pin="1" pinfunction="-12V" pintype="power_in"/>
+      <node ref="J4" pin="2" pinfunction="-12V" pintype="power_in"/>
+    </net>
+    <net code="25" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/AIN_Bitcrush_Control">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U5" pin="9" pinfunction="Bitcrush_Control" pintype="input"/>
+    </net>
+    <net code="26" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/AIN_Freq_Mod_CV">
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="Freq_Mod_CV" pintype="input"/>
+    </net>
+    <net code="27" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/AIN_Glide_Control">
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="Glide_Control" pintype="input"/>
+    </net>
+    <net code="28" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/AIN_Note_CV">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U5" pin="10" pinfunction="Note_CV" pintype="input"/>
+    </net>
+    <net code="29" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/AIN_Sub_Select_CV">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="U5" pin="18" pinfunction="Sub_Select_CV" pintype="input"/>
+    </net>
+    <net code="30" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/AIN_Waveform_CV">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U5" pin="17" pinfunction="Waveform_CV" pintype="input"/>
+    </net>
+    <net code="31" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/Bitcrush_CV_Amount">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/Bitcrush_CV_Control">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/DIN_Glide_Input">
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="Glide_Input" pintype="input"/>
+    </net>
+    <net code="34" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/DOUT_Main_Osc_Out">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="Main_Osc_Out" pintype="output"/>
+    </net>
+    <net code="35" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/DOUT_Sub_OSC_Out">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U5" pin="16" pinfunction="Sub_OSC_out" pintype="output"/>
+    </net>
+    <net code="36" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/FM_CV">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/Freq_Course_Ctrl">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="Freq_Control" pintype="input"/>
+    </net>
+    <net code="38" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/Freq_Fine_Ctrl">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="Fine_Control" pintype="input"/>
+    </net>
+    <net code="39" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/GlideTime_CV_Amount">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/GlideTime_CV_Control">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/Glide_OnOff_CV">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/MainOsc_Out">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="43" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/MainWaveSel_CV">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/MainWaveSel_Ctrl">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="Waveform_Control" pintype="input"/>
+    </net>
+    <net code="45" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/Note_CV">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="46" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/SubOsc_Out">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/SubWaveSel_CV">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="48" name="/Eurorack_Electric_Druid_VCDO1_Main_Board/SubWaveSel_Ctrl">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="Sub_Select_Control" pintype="input"/>
+    </net>
+    <net code="49" name="GND">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="5" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="6" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="7" pinfunction="GND" pintype="power_in"/>
+      <node ref="J4" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="12" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="3" pinfunction="+" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="+" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="0v" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="1" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="50" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(J5-PadT)">
+      <node ref="J5" pin="T" pintype="passive"/>
+      <node ref="RV4" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(J9-PadT)">
+      <node ref="J9" pin="T" pintype="passive"/>
+      <node ref="RV5" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(J10-PadT)">
+      <node ref="J10" pin="T" pintype="passive"/>
+      <node ref="RV8" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(J11-PadT)">
+      <node ref="J11" pin="T" pintype="passive"/>
+      <node ref="RV12" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(J12-PadT)">
+      <node ref="J12" pin="T" pintype="passive"/>
+      <node ref="RV14" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(J13-PadTN)">
+      <node ref="J13" pin="TN" pintype="passive"/>
+      <node ref="R51" pin="2" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pintype="output"/>
+    </net>
+    <net code="64" name="Net-(R13-Pad1)">
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U2" pin="7" pintype="output"/>
+    </net>
+    <net code="65" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="1" pintype="output"/>
+    </net>
+    <net code="66" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pintype="output"/>
+    </net>
+    <net code="67" name="Net-(R20-Pad2)">
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U2" pin="1" pintype="output"/>
+    </net>
+    <net code="68" name="Net-(R22-Pad1)">
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="RV3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV3" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U3" pin="7" pintype="output"/>
+    </net>
+    <net code="70" name="Net-(R34-Pad2)">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="71" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pintype="output"/>
+    </net>
+    <net code="72" name="Net-(R44-Pad2)">
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="U5" pin="15" pinfunction="Unused" pintype="bidirectional"/>
+    </net>
+    <net code="73" name="Net-(R47-Pad2)">
+      <node ref="R47" pin="2" pintype="passive"/>
+      <node ref="RV6" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(R48-Pad2)">
+      <node ref="R48" pin="2" pintype="passive"/>
+      <node ref="RV7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(R49-Pad2)">
+      <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="RV9" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(R50-Pad2)">
+      <node ref="R50" pin="2" pintype="passive"/>
+      <node ref="RV10" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(U1A--)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="78" name="Net-(U1B--)">
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="79" name="Net-(U1C--)">
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="80" name="Net-(U1D--)">
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="81" name="Net-(U2A--)">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="82" name="Net-(U2B--)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="83" name="Net-(U3A--)">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="84" name="Net-(U3B--)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="85" name="Net-(U4A-+)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="86" name="Net-(U4A--)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U4" pin="1" pintype="output"/>
+      <node ref="U4" pin="2" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="87" name="Net-(U4B-+)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="88" name="Net-(U4B--)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U4" pin="7" pintype="output"/>
+    </net>
+    <net code="89" name="Net-(U4C-+)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U4" pin="10" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="90" name="Net-(U4C--)">
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U4" pin="8" pintype="output"/>
+      <node ref="U4" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="91" name="Net-(U4D-+)">
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U4" pin="12" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="92" name="Net-(U4D--)">
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="-" pintype="input"/>
+      <node ref="U4" pin="14" pintype="output"/>
+    </net>
+    <net code="93" name="unconnected-(J4-+5V-Pad11)">
+      <node ref="J4" pin="11" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(J4-+5V-Pad12)">
+      <node ref="J4" pin="12" pinfunction="+5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(J4-CV-Pad13)">
+      <node ref="J4" pin="13" pinfunction="CV" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(J4-CV-Pad14)">
+      <node ref="J4" pin="14" pinfunction="CV" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(J4-GATE-Pad15)">
+      <node ref="J4" pin="15" pinfunction="GATE" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(J4-GATE-Pad16)">
+      <node ref="J4" pin="16" pinfunction="GATE" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(J5-PadTN)">
+      <node ref="J5" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(J6-PadTN)">
+      <node ref="J6" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(J7-PadTN)">
+      <node ref="J7" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(J8-PadTN)">
+      <node ref="J8" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(J9-PadTN)">
+      <node ref="J9" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(J10-PadTN)">
+      <node ref="J10" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(J11-PadTN)">
+      <node ref="J11" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(J12-PadTN)">
+      <node ref="J12" pin="TN" pintype="passive+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U5-Unused-Pad4)">
+      <node ref="U5" pin="4" pinfunction="Unused" pintype="input+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U5-Unused-Pad12)">
+      <node ref="U5" pin="12" pinfunction="Unused" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
