@@ -1,2 +1,16 @@
 # Eurorack Electric Druid VCDO1
- This is a repo of my version of Electric Druid's VCDO1 using the chip
+ A Eurorack wavetable oscillator module based on the VCDO1 chip from Electric Druid
+# Features added from the original VCDO circuit from Electric Druid
+ - CV controllable bitcrush and glide amounts
+# Inputs and outputs
+## Inputs
+ - Note CV (0v to 5v)
+ - FM (10vpp)
+ - Main wave select (10vpp)
+ - Sub wave select (10vpp)
+ - Bitcrush amount (10vpp)
+ - Glide time amount (10vpp)
+ - Glide on/off (0v to 5v)
+## Outputs (10vpp)
+ - Main oscillator
+ - Sub oscillator
