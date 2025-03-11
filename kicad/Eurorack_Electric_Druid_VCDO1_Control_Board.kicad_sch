@@ -7,7 +7,7 @@
   (title_block
     (title "Eurorack Electric Druid VCDO1 - Control Board")
     (date "2024-02-24")
-    (rev "0.1.3")
+    (rev "0.1.4")
     (company "DIYSynthMNL")
     (comment 1 "Shared under a CC BY-NC-SA 4.0 license. Some rights reserved.")
   )
