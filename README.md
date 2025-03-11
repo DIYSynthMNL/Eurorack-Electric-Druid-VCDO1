@@ -1,3 +1,5 @@
+This module is shared under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license](https://creativecommons.org/licenses/by-nc-sa/4.0/). All credits go to Tom Wiltshire, founder of Electric Druid.
+
 # Eurorack Electric Druid VCDO1
  A Eurorack wavetable oscillator module based on the VCDO1 chip from Electric Druid
 # Features added from the original VCDO circuit from Electric Druid
