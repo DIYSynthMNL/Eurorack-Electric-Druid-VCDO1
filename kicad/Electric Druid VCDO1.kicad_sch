@@ -7,9 +7,10 @@
   (title_block
     (title "Eurorack Electric Druid VCDO1 - Control Board")
     (date "2024-02-24")
-    (rev "0.1.4")
+    (rev "0.1.5")
     (company "DIYSynthMNL")
     (comment 1 "Shared under a CC BY-NC-SA 4.0 license. Some rights reserved.")
+    (comment 2 "All credits go to Tom Wiltshire, founder of Electric Druid")
   )
 
   (lib_symbols
