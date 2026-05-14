@@ -21,7 +21,7 @@ This module is shared under a [Creative Commons Attribution-NonCommercial-ShareA
 
 What's available for builders, and what's still on the TODO list:
 
-- [x] Schematic PDF (latest Rev 0.1.5) — [Electric Druid VCDO1_Multiboard_Schematic_0.1.5.pdf](schematic%20pdfs/Electric%20Druid%20VCDO1_Multiboard_Schematic_0.1.5.pdf)
+- [x] Schematic PDF (latest Rev 0.1.5) — [Electric Druid VCDO1_Multiboard_Schematic_0.1.5.pdf](Schematic%20PDFs/Electric%20Druid%20VCDO1_Multiboard_Schematic_0.1.5.pdf)
 - [x] KiCad source files — [kicad/](kicad/)
 - [ ] Gerber files for PCB fabrication — *not yet exported — generate from kicad/ before sending to a fab*
 - [x] Bill of materials (BOM) — [BOMs - VCDO1 - Schematic Rev 0.1.2.pdf](BOMs/BOMs%20-%20VCDO1%20-%20Schematic%20Rev%200.1.2.pdf)
