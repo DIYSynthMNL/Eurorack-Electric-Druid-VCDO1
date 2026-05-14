@@ -81,6 +81,13 @@ Procedure:
 
 If tracking drifts at the extremes (very low or very high notes), check the timing capacitor area on the VCDO1 (this is a chip-internal characteristic).
 
+## References
+
+Local archived copies live in [`references/`](references/) so this repo stays useful if the upstream links die.
+
+- **VCDO1 datasheet (Tom Wiltshire / Electric Druid, 2015)** — [local copy](references/VCDO1-Datasheet-ElectricDruid-2015.pdf) · [upstream](https://electricdruid.net/wp-content/uploads/2015/07/VCDO-Datasheet.pdf) — chip pinout, example circuit, and waveform reference. Note the negative-5V-regulator wiring error called out above; this schematic corrects it.
+- [Electric Druid VCDO1 product page](https://electricdruid.net/product/vcdo-wavetable-oscillator/)
+
 ## Build status
 
 What's ready for builders today, and what's still on the TODO list:
