@@ -19,18 +19,25 @@ This module is shared under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ## Build status
 
-What's available for builders, and what's still on the TODO list:
+What's ready for builders today, and what's still on the TODO list:
 
-- [x] Schematic PDF (latest Rev 0.1.5) — [Electric Druid VCDO1_Multiboard_Schematic_0.1.5.pdf](Schematic%20PDFs/Electric%20Druid%20VCDO1_Multiboard_Schematic_0.1.5.pdf)
-- [x] KiCad source files — [kicad/](kicad/)
-- [ ] Gerber files for PCB fabrication — *not yet exported — generate from kicad/ before sending to a fab*
-- [x] Bill of materials (BOM) — [BOMs - VCDO1 - Schematic Rev 0.1.2.pdf](BOMs/BOMs%20-%20VCDO1%20-%20Schematic%20Rev%200.1.2.pdf)
-- [x] 3D-printed front panel STL — [VCDO.stl](3D%20printed%20front%20panel/VCDO.stl)
-- [ ] Front panel graphics (SVG/PDF for fab-made panels) — *not yet exported*
-- [ ] Photos of the assembled module — *not yet — coming soon*
-- [ ] Demo video — *not yet recorded*
-- [ ] Build / assembly instructions — *not yet written*
-- [ ] Calibration / tuning notes — *not yet written*
+**Production assets** (what you need to actually fabricate and assemble a final unit)
+
+- [x] Schematic — Rev 0.1.5 ([Electric Druid VCDO1_Multiboard_Schematic_0.1.5.pdf](Schematic%20PDFs/Electric%20Druid%20VCDO1_Multiboard_Schematic_0.1.5.pdf))
+- [ ] PCB layout — in progress — multiboard layout in `kicad/`, not yet separated for fab
+- [ ] Gerber files for fabrication — none yet
+- [x] BOM — [BOMs - VCDO1 - Schematic Rev 0.1.2.pdf](BOMs/BOMs%20-%20VCDO1%20-%20Schematic%20Rev%200.1.2.pdf)
+- [ ] Final front panel (SVG/PDF for fab) — none yet
 - [x] License — [LICENSE](LICENSE)
 
-If you want to help fill a gap (build photos, gerbers, an assembly guide), open an issue or PR.
+**Prototype assets** (for breadboard / perfboard / 3D-printed-panel builds before final PCB)
+
+- [x] 3D-printed prototype panel STL — [VCDO.stl](3D%20printed%20front%20panel/VCDO.stl)
+
+**Documentation**
+
+- [ ] Photos of the assembled module — none yet
+- [ ] Demo video — none yet
+- [ ] Build / assembly instructions — none yet
+
+Want to help fill a gap (build photos, gerbers, an assembly guide)? Open an issue or PR.
